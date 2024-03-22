@@ -1,0 +1,443 @@
+
+.base{
+    width: 100%;
+    height: 3500px;
+}
+.section1{
+    height: 100vh;
+    width: 100%;
+}
+
+.section2{
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid black; */
+    background-color: rgb(240, 240, 240);
+}
+
+.section3{
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid black; */
+}
+
+#starter_img{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 86.31%;
+    background-image: url("https://www.tekdi.net/static/04954892ebf7f0cdbfb89e0bd062e41a/c26c2/bg-home.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-y:-183.5px;
+    /* padding: 40px; */
+}
+
+.holder{
+    height: 100%;
+    width: 93.8%;
+    border-bottom: 0.1px solid rgb(188, 188, 188);
+    margin: auto;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 9%;
+    /* position: absolute; */
+    height: 100%;
+    background-image: url("https://www.tekdi.net/static/logo-white-txt-lg-3049e14501ee94579548831474cb2b28.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border: 1px solid black; */
+}
+
+#head_bar{
+    height: 10.5%;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    z-index: 999;
+    /* background-color: rgba(0, 0, 0, 0.328); */
+    /* border: 1px solid white; */
+}
+
+.nbar{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:space-between;
+    font-family: 'Overpass', sans-serif;
+    padding: 0%;
+}
+
+.nbar button{
+    width: 22%;
+    height: 100%;
+    /* font-size: 1.7em; */
+    /* font-weight:550; */
+    font-size: 14.5px;
+    font-stretch:ultra-expanded;
+    /* font-weight: bolder; */
+    color: white;
+    background-color: transparent;
+    border:none !important;
+    /* padding:0px !important; */
+}
+
+
+
+.nbar button:hover{
+    background-color: #005aba;
+}
+
+.nbar button:nth-last-child(1){
+    width: 27%;
+}
+
+.dropdown .dropdown-menu{
+    border-radius:0% ;
+    font-size: x-small ;
+    height: calc(27.5*3);
+    width: 200px;
+    padding: 0px;
+    border: none;
+}
+
+.dropdown-menu .dropdown-item{
+    padding: 5px 5px 0px ;
+    
+}
+
+.dropdown-menu .dropdown-item:hover{
+    color: white;
+    background-color: #005aba;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.img-title{
+    width: 100%;
+    height:85.5%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.img-title h1{
+    padding: 0px 50px;
+    font-size: 40px;
+    color: white;
+    font-weight: 200;
+    line-height: 1em;
+    font-family: 'Overpass', sans-serif;
+}
+
+.section2 .holder{
+    display: block;
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    border: none;
+}
+
+.section2 .holder h1{
+
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.section2 .holder p{
+    color: rgb(123, 123, 123);
+    line-height: 1.4em;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    /* border: 1px solid black; */
+    height: 40%;
+}
+
+.text-2{
+    width: 40%;
+    /* border: 1px solid black; */
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.infograph{
+    /* border: 1px solid black; */
+    margin: 0px !important;
+} 
+
+.holder-2{
+    /* width: 110%; */
+    width: 100%;
+    height: 50%;
+    margin-left:0px !important;
+    /* border: 1px solid black; */
+}
+
+.infograph .text h1{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.infograph .text p{
+    font-size: 20px;
+    color:rgb(123, 123, 123);
+    padding: 0px !important;
+}
+
+.infograph .text a{
+    text-decoration:none;
+    color: #00d0d2;
+}
+
+.hidden-content a{
+    text-decoration:none;
+    color: #ffffff;
+}
+
+.hidden-content .animated-underline::after{
+    background-color: white;
+}
+
+.animated-underline {
+    display: inline-block;
+}
+  
+.animated-underline::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background-color:#00d0d2; /* Change this to the desired color for the underline */
+    transition: width 0.5s;
+}
+  
+
+.animated-underline:hover::after {
+    width: 100%;
+}
+
+.img-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0% !important;
+    overflow: hidden;
+}
+
+.imgs{
+    width: 100%;
+    height: 80%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* border: 1px solid black; */
+    background-position-y: 50px;
+    transition: transform 0.2s linear;
+}
+.imgs:hover{
+    transform: scale(1.05);
+}
+
+.imgs.i1{
+    background-image: url("https://www.tekdi.net/static/54d116a9e1e7bf56205f2cbf1fa9f83f/e1e84/e-learning.png"); 
+}
+
+.imgs.i2{
+      background-image: url("https://www.tekdi.net/static/013edc5e48c09dc480825e6d4ac22e18/e1e84/customer-experience.png"); 
+}
+
+
+
+.section3 .holder-3{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section3 .holder-3 h1{
+    width: 100%;
+    /* height: 100%; */
+    /* border: 1px solid black; */
+    /* border: none !important; */
+    margin: auto;
+    font-size: 40px !important;
+    text-align: center;
+}
+
+
+.cardholder{
+    width: 100%;
+    height: 55%;
+    padding: 0px 50px;
+    margin-left: 0px !important;
+    /* overflow: hidden; */
+}
+
+.section3 .cardholder .card{
+    border-radius: 0px !important;
+    border: 0.01px solid rgba(207, 207, 207, 0.361);
+    background-color: #09225A;
+    padding: 0px 0px !important;
+    /* overflow: visible !important; */
+    /* position: fixed; */
+}
+
+.card h3{
+    height: 40%;
+    color: white;
+    font-size: 22px;
+    margin: 40% 10%;
+    
+}
+
+.hidden-content{
+    width: 100%;
+    height: 130%;
+    background:linear-gradient(rgb(8, 54, 111),rgb(0, 190, 197));
+    color: white;
+    font-size:19px;
+    /* border: 1px solid black; */
+    position: absolute;
+    /* top: 60%; */
+    display: none;
+
+}
+
+.cardholder .card .hidden-content h3{
+    height: auto;
+    margin-bottom: 0px;
+}
+
+.card .hidden-content p{
+    margin: 20px 30px;
+}
+
+.card .hidden-content .animated-underline{
+    margin: 10px 30px;
+    
+}
+
+.cardholder .card:hover{
+    background:linear-gradient(rgb(8, 54, 111),rgb(0, 190, 197));    
+}
+
+.cardholder .card:hover .hidden-content{
+    display: block;
+}
+
+#white-back .card{
+    background-color: white;
+    color: black !important;
+}
+
+.form-section{
+    margin-top: 100px;
+    height: 70vh;
+    width: 100%;
+    background-image: url("https://www.tekdi.net/static/lets-transform-bg-06ab8de9a71d94a50d42eb9a2187f4b4.jpg");
+    background-size: cover;
+    background-position-x: 53%;
+}
+
+.form-section h1{
+    color: white;
+    font-size: 40px;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+.r1,.r2{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.r2 .field{
+    
+    width: 100%;
+    height: 100px;
+    /* text-align: start; */
+    padding: 15px !important;
+}
+
+.field{
+    width: 30%;
+    margin: 10px 0px;
+    background-color: rgba(65, 65, 65, 0.667);
+    border: none;
+    padding: 10px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+.btns button{
+    color: white;
+    background: transparent;
+    border: none;
+    margin-top: 30px;
+}
+
+.btns .animated-underline::after{
+    background-color: white;
+}
+
+.last-section{
+    margin: 0px !important;
+    width: 100%;
+    height: 70vh;
+    background-color: #09225A;
+    color: white;
+}
+
+.last-section div{
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 50px 15px;
+    font-size: 15px;
+}
+
+.last-section a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.last-section a:hover{
+    text-decoration: underline;
+}
+
+.copyright-mark{
+    width: 100%;
+    height:12vh;
+    background-color: #09225A;
+    border-top: 1px solid white;
+}
+
+.copyright-mark h6{
+    color: rgba(255, 255, 255, 0.393);
+    padding: 20px;
+    width: 60%;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+}
